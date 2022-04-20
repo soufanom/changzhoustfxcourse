@@ -10,6 +10,8 @@
 using namespace std;
 
 int main() {
+	double weight = 10.9;
 	cout << "!!!Hello Changzhou Students!!!" << endl; // prints !!!Hello World!!!
+	cout << "my weight is " << weight << endl;
 	return 0;
 }
