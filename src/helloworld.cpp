@@ -9,23 +9,11 @@
 #include <iostream>
 using namespace std;
 
-void swap(int& first, int& second){
-	int temp = first;
-	first = second;
-	second = temp;
-}
-
 int main() {
-	int a = 2, b = 3;
+	//2D array
+	const int ROWS=2, COLS=2;
+	int exams[ROWS][COLS] = {{84, 87},{92, 97}};
+	cout << exams[1][0] << endl;
 
-	cout << "before calling swap" << endl;
-	cout << a << " " << b << endl;
-
-	swap(a, b);
-
-	cout << "after calling swap" << endl;
-	cout << a << " " << b << endl;
-
-	//what is the output of the program??
 	return 0;
 }
