@@ -10,10 +10,18 @@
 using namespace std;
 
 int main() {
-	//2D array
-	const int ROWS=2, COLS=2;
-	int exams[ROWS][COLS] = {{84, 87},{92, 97}};
-	cout << exams[1][0] << endl;
+//	const int SIZE=5;
+	int numbers[] = {10, 20, 30, 40, 50};
+
+	//loop the array
+//	for(int i=0; i<SIZE; i++){
+//		cout << numbers[i] << endl;
+//	}
+
+	//range-based for loop
+	for(auto val : numbers){
+		cout << val << endl;
+	}
 
 	return 0;
 }
